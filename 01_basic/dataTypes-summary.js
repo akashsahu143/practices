@@ -34,4 +34,26 @@ const myFunction= function(){
 
 // how to know deta Types of variable
 
-console.table( heros);
+console.log(typeof heros);
+
+
+
+//       memories
+
+//stack (primitive), Heap(non-primitive)
+
+let myYoutubename =  "soulfullbhakti"
+let anothername = myYoutubename
+
+console.log(anothername);
+
+let userOne ={
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+let userTwo = userOne  
+
+userTwo.email = "aks@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
