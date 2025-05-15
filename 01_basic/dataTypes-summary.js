@@ -22,7 +22,7 @@ const bigNumber = 1235468755254n
 
 //Array, Objects, Function 
 
-const heros =["saktimaan","krish","hanuman"]
+const heros =["saktimaan","krish","hanuman"];
 let myObj ={
     name:"akash",
     age:21,
@@ -31,3 +31,7 @@ let myObj ={
 const myFunction= function(){
     console.log("Hello world");
 }
+
+// how to know deta Types of variable
+
+console.table( heros);
